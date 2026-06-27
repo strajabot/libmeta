@@ -1,0 +1,5 @@
+--std=c++20
+-DLIBMETA_SETTING_DEVICE=1
+-DLIBMETA_SETTING_HOST=1
+-Ibuild/_deps/doctest-src
+-Iinclude

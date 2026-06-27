@@ -1,0 +1,5 @@
+add_executable(example main.cpp)
+target_link_libraries(example PRIVATE libmeta)
+target_compile_definitions(example PRIVATE LIBMETA_SETTING_DEVICE=1)
+target_compile_options(example PRIVATE -fno-pie -flto -O3)
+target_link_options(example PRIVATE -no-pie)
